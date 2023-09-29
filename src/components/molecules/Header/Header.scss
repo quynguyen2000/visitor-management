@@ -1,0 +1,129 @@
+.header-container {
+  .ant-typography {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 14px;
+  }
+
+  .collapsed {
+    cursor: pointer;
+    font-size: 1.5rem;
+    color: #023e8a;
+    margin-left: 14px;
+    &:hover {
+      transform: scale(1.1);
+      transition: all 0.2s ease;
+    }
+  }
+
+  height: 100px !important;
+  max-width: 100%;
+  width: 100%;
+  background: #fff !important;
+  padding: 0 !important;
+  display: flex;
+  align-items: center;
+  line-height: auto !important;
+
+  .ant-layout-header {
+    height: 100px !important;
+    padding: 0 !important;
+    width: 100% !important;
+  }
+  .notify-icon {
+    cursor: pointer;
+    font-size: 2rem;
+    color: #023e8a;
+    border-radius: 15px;
+    padding: 10px;
+    &:hover {
+      color: #6ba6ff;
+    }
+  }
+  .ant-badge:hover {
+    transform: scale(1.1);
+    transition: all 0.2s ease;
+  }
+  .ant-badge {
+    .ant-scroll-number {
+      position: absolute;
+      top: 25%;
+      right: 20%;
+    }
+    .ant-badge-count {
+      min-width: 15px;
+      height: 15px;
+
+      font-size: 10px;
+      line-height: 15px;
+    }
+  }
+  .avatar-container {
+    display: flex;
+    justify-content: center;
+    padding-right: 10px;
+
+    .avatar:hover {
+      cursor: pointer;
+    }
+    .avatar-details {
+      padding: 0 20px 0 12px;
+      @media only screen and (max-width: 1376px) {
+        display: none;
+      }
+    }
+    .avatar-name {
+      font-family: Poppins, sans-serif;
+      font-weight: bold;
+      color: black;
+    }
+    .avatar-role {
+      font-family: Poppins, sans-serif;
+      font-weight: 500;
+      color: rgba(0, 0, 0, 0.689);
+    }
+  }
+  .badge-card {
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+
+.ant-layout-header {
+  line-height: unset !important;
+}
+.ant-dropdown-menu {
+  font-family: Poppins, sans-serif;
+  font-weight: 500;
+  border-radius: 15px !important;
+  padding: 18px !important;
+  margin-top: 12px !important;
+
+  li {
+    font-size: 16px;
+  }
+
+  li:hover {
+    color: #0077b6;
+    background-color: #d3f7ff !important;
+    border-radius: 30px;
+  }
+}
+
+.collapse-container-desktop {
+  display: none;
+}
+@media only screen and (max-width: 768px) {
+  .collapse-container-desktop {
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    height: auto;
+    padding: 0;
+    position: absolute;
+    z-index: 9999;
+    top: 100px;
+    left: 0;
+    // border: 1px solid;
+    box-shadow: 0 1px 10px #d2d2f280;
+    display: block;
+  }
+}

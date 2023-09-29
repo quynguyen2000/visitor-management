@@ -1,0 +1,13 @@
+.not-found {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 24px;
+  max-width: 100%;
+  max-height: auto;
+  justify-content: center;
+  .img-404 {
+    height: auto;
+    width: 30%;
+  }
+}

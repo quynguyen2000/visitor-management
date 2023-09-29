@@ -1,0 +1,16 @@
+export const API_URL = {
+  TOPICS: '/api/topics',
+  STORES: '/api/stores',
+  EXPORT: '/export',
+  SUBSCRIBE_TOPIC: '/api/notification/subscribe-store',
+  UNSUBSCRIBE_TOPIC: '/api/notification/unsubscribe-store',
+  NOTIFICATIONS: '/api/notification',
+  ALL_NOTIFICATIONS: '/api/notification/anchorId',
+  FACE_FRAMES: '/api/digieye/get-face-frames',
+  FACE_CLUSTERS: '/api/digieye/get-face-clusters',
+  VISITOR_SNAPSHOT: '/api/digieye/get-visitor-snapshots',
+  LEADS: '/api/leads',
+  CUSTOMERS: '/api/customers',
+  GROUPS: '/api/contact-groups',
+  KIOT_VIET_ORDERS: '/api/kiotviet/orders',
+};

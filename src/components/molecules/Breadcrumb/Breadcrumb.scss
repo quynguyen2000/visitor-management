@@ -1,0 +1,51 @@
+.ant-breadcrumb {
+  width: 100%;
+
+  ol > li:first-child {
+    &::after {
+      content: '|';
+      margin: 0 12px;
+    }
+
+    .ant-breadcrumb-separator {
+      display: none;
+    }
+  }
+
+  .breadcrumb-item {
+    cursor: pointer;
+    font-size: 8px;
+    color: #909090;
+    & .home-active {
+      scale: 0.7;
+      margin-bottom: 2px;
+    }
+    &:hover {
+      color: #03045e;
+      & .home-active {
+        display: inline-block;
+        scale: 0.7;
+        margin-bottom: 2px;
+      }
+    }
+  }
+
+  .ant-breadcrumb-separator {
+    margin: 0 10px !important;
+    .anticon {
+      font-size: 8px !important;
+    }
+  }
+  .ant-typography {
+    margin: 0 7px !important;
+    color: #2a5dff;
+    font-size: 14px;
+    font-weight: 500;
+  }
+
+  .ant-breadcrumb-link {
+    color: #03045e;
+    font-weight: 700;
+    font-size: 14px;
+  }
+}

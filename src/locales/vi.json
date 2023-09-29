@@ -1,0 +1,167 @@
+{
+  "BUTTON": {
+    "SAVE": "Lưu",
+    "UPDATE": "Cập nhật",
+    "EXPORT": "Xuất tệp",
+    "DETAIL": "Chi tiết",
+    "VIEW_ALL": "Xem tất cả",
+    "CANCEL": "Hủy",
+    "FILTER": "Lọc",
+    "RESET": "Làm mới",
+    "TRACE": "Đánh dấu",
+    "LEADS_CREATE": "Tạo khách hàng tiềm năng",
+    "CUSTOMER_CREATE": "Tạo khách hàng",
+    "TOPICS": "Đăng ký kênh thông báo",
+    "NOTE_ADD": "Thêm ghi chú"
+  },
+  "EMPTY": {
+    "NO_DATA": "Không có dữ liệu",
+    "NO_DATA_TYPE": "Không có dữ liệu {{type}}",
+    "FIRST_VISIT": "khách hàng mới tới lần đầu"
+  },
+  "TABLE": {
+    "STT": "STT",
+    "ORDER_CODE": "Mã HĐ",
+    "TIME": "Thời gian",
+    "LOCATION": "Địa điểm",
+    "TOTAL_MONEY": "Tổng tiền",
+    "STATUS": "Trạng thái",
+    "NOTE": "Ghi chú",
+    "PAGE_TOTAL": "Tổng {{total}} khách hàng"
+  },
+  "SEDER": {
+    "STAFF": "Quản lý nhân viên",
+    "UNKNOWNS": "Quản lý người lạ ghé thăm"
+  },
+  "BREADCRUMBS": {
+    "NOTIFICATIONS": "Thông báo",
+    "UNKNOWNS": "Khách hàng chưa xác định",
+    "DETAIL": "Chi tiết",
+    "STAFFS": "Nhân viên"
+  },
+  "HEADER": {
+    "PROFILE": "Hồ sơ",
+    "LOGOUT": "Đăng xuất"
+  },
+  "NOT_FOUND": {
+    "BACK_HOME": "Trở về trang chủ"
+  },
+  "DASHBOARD": {
+    "VISITORS_STATISTIC": "Thống kê lượt truy cập",
+    "VISITS_STATISTIC": "Thống kê lượt ghé thăm"
+  },
+  "MODAL": {
+    "VISITOR_DETAILS": "Thông tin người ghé thăm",
+    "LEAD_CREATE": "Tạo khách hàng tiềm năng",
+    "LEAD_UPDATE": "Cập nhật khách hàng tiềm năng",
+    "CUSTOMER_CREATE": "Tạo khách hàng",
+    "CUSTOMER_UPDATE": "Cập nhật khách hàng",
+    "NOTE_CREATE": "Thêm ghi chú"
+  },
+  "AUTH": {
+    "FIREBASE_SIGN_IN": "Đăng nhập vào Firebase",
+    "SIGN_IN": "Đăng nhập"
+  },
+  "ROLE": {
+    "STAFF": "Nhân viên",
+    "ADMIN": "Quản trị Viên"
+  },
+  "TYPE": {
+    "VIP": "VIP",
+    "ALL": "Tất cả",
+    "LEAD_LOWER": "tiềm năng",
+    "LEAD": "Tiềm năng",
+    "UNKNOWN_LOWER": "chưa xác định",
+    "UNKNOWN": "Chưa xác định"
+  },
+  "GENDER": {
+    "MALE": "Nam",
+    "FEMALE": "Nữ"
+  },
+  "VALIDATE": {
+    "REQUIRED": "{{field}} là bắt buộc",
+    "CHOOSE": "Chọn {{value}}"
+  },
+  "NOTIFICATION": {
+    "TITLE": "Thông báo",
+    "NOT_YET_SUPPORTED": "Chưa được hỗ trợ",
+    "WELCOME_CUSTOMERS": "Vui lòng chuẩn bị và chào đón khách hàng!"
+  },
+  "CONTACT": {
+    "TITLE_CUSTOMER": "Khách hàng ",
+    "TYPE_CUSTOMER": " mới đến cửa hàng!",
+    "TITLE": "Khách hàng",
+    "STORE": "Cửa hàng",
+    "TOTAL_ORDER": "Tổng số đơn hàng",
+    "TOTAL_VALUE_OF_ORDERS": "Tổng giá trị đơn hàng",
+    "AVERAGE_VALUE_OF_EACH_ORDER": "Giá trị trung bình của mỗi đơn hàng",
+    "ID": "ID",
+    "PURCHASE_HISTORY": "Lịch sử mua hàng",
+    "STORE_VISIT": "Lượt ghé thăm cửa hàng",
+    "DETAIL_TITLE": "Chi tiết khách hàng",
+    "VISITS_TOTAL": "Tổng số lượt ghé thăm",
+    "MODAL_NAME": "{{name}} - {{type}}",
+    "STAFF_IN_CHARGE": "Nhân viên phụ trách",
+    "CREATE_BY_STORE": "Được tạo bởi cửa hàng",
+    "PLACEHOLDER": "Nhập {{filed}}",
+    "CHOOSE": "Chọn {{filed}}",
+    "NAME": "Tên",
+    "TAGS": "Nhãn",
+    "GROUP": "Nhóm khách hàng",
+    "PHONE": "Số điện thoại",
+    "GENDER": "Giới tính",
+    "DATE_OF_BIRTH": "Ngày sinh",
+    "EMAIL": "Địa chỉ thư",
+    "ADDRESS": "Địa chỉ",
+    "NEAREST_STORE_VISIT": "Lượt ghé thăm cửa hàng gần nhất",
+    "NOTES_EMPTY": "Nội dung ghi chú hiện tại đang trống",
+    "NOTES": "Ghi chú",
+    "NOTE_CONTENT": "Được tạo bởi",
+    "SIMILARITY": "Tỷ lệ giống nhau",
+    "ALL_SNAPSHOT": "Tất cả hình ảnh của khách hàng",
+    "ALL_HISTORY": "Tất cả lịch sử"
+  },
+  "DATE": {
+    "SECONDS": "{{value}} giây trước",
+    "MINUTES": "{{value}} phút trước",
+    "HOURS": "{{value}} giờ trước",
+    "DAYS": "{{value}} ngày trước",
+    "WEEKS": "{{value}} tuần trước",
+    "MONTHS": "{{value}} tháng trước",
+    "YEARS": "{{value}} năm trước"
+  },
+  "SELECT": {
+    "PLACEHOLDER": "Chọn",
+    "TOPIC": "Chọn cửa hàng",
+    "ALL": "Tất cả"
+  },
+  "LEAD": {
+    "TITLE": "Khách hàng tiềm năng",
+    "DATE_OF_BIRTH": "Ngày sinh"
+  },
+  "STORE": {
+    "TITLE": "Cửa hàng",
+    "STORE_ID": "Mã cửa hàng",
+    "NAME": "Tên cửa hàng"
+  },
+
+  "CUSTOMER": {
+    "TITLE": "Khách hàng",
+    "NAME": "Tên",
+    "GROUP": "Nhóm khách hàng",
+    "PHONE": "Số điện thoại",
+    "DATE_OF_BIRTH": "Ngày sinh",
+    "STAFF_IN_CHARGE": "Nhân viên phụ trách",
+    "SEARCH": "Tìm kiếm",
+    "IMAGE": "Ảnh của khách hàng"
+  },
+  "STAFF": {
+    "TITLE": "Nhân viên"
+  },
+  "VIDEO": {
+    "TITLE": "Ghi hình"
+  },
+  "TOPIC": {
+    "NAME_LOWER": "cửa hàng"
+  }
+}

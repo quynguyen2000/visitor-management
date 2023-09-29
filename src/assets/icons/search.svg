@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="vuesax_outline_search-normal" data-name="vuesax/outline/search-normal" transform="translate(-428 -188)">
+    <g id="search-normal">
+      <g id="Group_17527" data-name="Group 17527" transform="translate(2.343 2.344)">
+        <path id="Vector" d="M8.015,16.031a8.015,8.015,0,1,1,8.015-8.015A8.026,8.026,0,0,1,8.015,16.031Zm0-14.858a6.842,6.842,0,1,0,6.842,6.842A6.85,6.85,0,0,0,8.015,1.173Z" transform="translate(429.25 189.25)" fill="#909090"/>
+        <path id="Vector-2" data-name="Vector" d="M2.149,2.735a.58.58,0,0,1-.414-.172L.17,1A.586.586,0,0,1,1,.17L2.563,1.734a.59.59,0,0,1,0,.829A.58.58,0,0,1,2.149,2.735Z" transform="translate(443.328 203.328)" fill="#909090"/>
+      </g>
+      <path id="Vector-3" data-name="Vector" d="M0,0H24V24H0Z" transform="translate(428 188)" fill="none" opacity="0"/>
+    </g>
+  </g>
+</svg>

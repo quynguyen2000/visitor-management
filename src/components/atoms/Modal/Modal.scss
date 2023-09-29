@@ -1,0 +1,30 @@
+.ant-modal {
+  .ant-typography {
+    font-family: 'Quicksand', sans-serif;
+  }
+  padding: 2rem 0 2rem 0;
+  font-family: 'Quicksand', sans-serif;
+  width: 60% !important ;
+  height: auto !important ;
+  .ant-modal-content {
+    width: 100% !important ;
+    height: 100% !important ;
+    justify-content: 'center' !important;
+    .ant-modal-body {
+      height: auto;
+      .compare-img {
+        margin-bottom: 16px !important;
+      }
+      .info-col {
+        padding-left: 2rem !important;
+      }
+      .row-modal {
+        padding: 2rem;
+        justify-content: center;
+        .col-modal-img {
+          margin-bottom: 12px;
+        }
+      }
+    }
+  }
+}

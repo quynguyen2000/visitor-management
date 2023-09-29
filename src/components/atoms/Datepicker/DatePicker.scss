@@ -1,0 +1,42 @@
+.date-picker {
+  width: 100%;
+  height: 48px;
+  border-radius: 12px;
+  cursor: pointer;
+  &:hover {
+    border-color: #5646ff !important;
+  }
+  &:focus {
+    border-color: #5646ff !important;
+  }
+}
+
+.date-picker:focus,
+.date-picker-focused {
+  border-color: #5646ff !important;
+  box-shadow: unset !important;
+}
+
+.ant-picker:focus,
+.ant-picker-focused {
+  border-color: #5646ff !important;
+  box-shadow: unset !important;
+}
+.ant-picker-status-error.ant-picker-focused {
+  border-color: #ff4d4f !important;
+  box-shadow: unset !important;
+}
+
+.ant-picker-input > input {
+  padding: 6px !important;
+  color: $color-text-basic !important;
+  &:focus {
+    border-color: #5646ff !important;
+  }
+  &:hover {
+    border-color: #5646ff !important;
+  }
+}
+.ant-select-arrow {
+  color: #909090 !important;
+}

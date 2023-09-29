@@ -1,0 +1,44 @@
+.image-update {
+  border-radius: 12px;
+  box-shadow: 0 0 34px #d2d2f280;
+
+  &.upload-img {
+    margin-top: 1rem;
+    margin-bottom: 2rem !important;
+  }
+
+  .ant-upload-picture-card-wrapper {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    max-height: 26px;
+    margin-bottom: 10px;
+  }
+  .ant-space {
+    padding: 1rem;
+    .ant-space-item {
+      width: 175px;
+    }
+
+    .ant-image {
+      width: 175px;
+      height: 205px;
+      .ant-image-img {
+        object-fit: cover !important;
+        width: 100% !important;
+        height: 100% !important;
+      }
+    }
+    .icon-camera {
+      color: #033fff;
+      font-size: 1.5rem;
+    }
+
+    .ant-upload {
+      background: #fff;
+      width: 2rem !important;
+      height: 2rem !important;
+      border: none !important;
+    }
+  }
+}

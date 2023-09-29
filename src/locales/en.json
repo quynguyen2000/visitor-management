@@ -1,0 +1,137 @@
+{
+  "BUTTON": {
+    "SAVE": "Save",
+    "UPDATE": "Update",
+    "DETAIL": "Detail",
+    "VIEW_ALL": "View All",
+    "CANCEL": "Cancel",
+    "FILTER": "Filter",
+    "RESET": "Reset",
+    "TRACE": "Trace",
+    "LEADS_CREATE": "Create Lead",
+    "CUSTOMER_CREATE": "Create Customer",
+    "TOPICS": "Subscribe to Channels"
+  },
+  "EMPTY": {
+    "NO_DATA": "No data",
+    "NO_DATA_TYPE": "No {{type}} data",
+    "FIRST_VISIT": "first-time visitor"
+  },
+  "TABLE": {
+    "STT": "No.",
+    "ORDER_CODE": "Order Code",
+    "TIME": "Time",
+    "LOCATION": "Location",
+    "TOTAL_MONEY": "Total Money",
+    "STATUS": "Status",
+    "NOTE": "Note"
+  },
+  "SEDER": {
+    "DASHBOARD": "Dashboard",
+    "STORE": "Store Management",
+    "STAFF": "Staff Management",
+    "VIDEO": "Video Management",
+    "NOTIFICATION": "Notifications"
+  },
+  "BREADCRUMBS": {
+    "HOME": "Home",
+    "NOTIFICATIONS": "Notifications",
+    "LEADS": "Leads",
+    "TOPICS": "Topics",
+    "CUSTOMERS": "Customers",
+    "UNKNOWNS": "Unknown Customers",
+    "STORES": "Stores",
+    "DASHBOARDS": "Dashboards"
+  },
+  "HEADER": {
+    "PROFILE": "Profile",
+    "LOGOUT": "Logout"
+  },
+  "NOT_FOUND": {
+    "BACK_HOME": "Back to Home"
+  },
+  "DASHBOARD": {
+    "VISITORS_STATISTIC": "Visitors Statistic",
+    "VISITS_STATISTIC": "Visits Statistic"
+  },
+  "MODAL": {
+    "VISITOR_DETAILS": "Visitor Details",
+    "LEAD_CREATE": "Create Lead",
+    "LEAD_UPDATE": "Update Lead",
+    "CUSTOMER_CREATE": "Create Customer"
+  },
+  "AUTH": {
+    "FIREBASE_SIGN_IN": "Sign in with Firebase",
+    "SIGN_IN": "Sign In"
+  },
+  "ROLE": {
+    "STAFF": "Staff",
+    "ADMIN": "Admin"
+  },
+  "TYPE": {
+    "VIP": "VIP",
+    "ALL": "All",
+    "LEAD_LOWER": "lead",
+    "LEAD": "Lead",
+    "UNKNOWN_LOWER": "unknown",
+    "UNKNOWN": "Unknown"
+  },
+  "VALIDATE": {
+    "REQUIRED": "{{field}} is required",
+    "CHOOSE": "Choose {{value}}"
+  },
+  "NOTIFICATION": {
+    "TITLE": "Notification",
+    "VISITS_TOTAL": "Total Visits",
+    "NOT_YET_SUPPORTED": "Not yet supported",
+    "WELCOME_CUSTOMERS": "Please prepare and welcome customers!",
+    "ID": "ID",
+    "SDT": "Phone Number",
+    "DATE_OF_BIRTH": "Date of Birth",
+    "PHONE": "Phone",
+    "EMAIL": "Email",
+    "ADDRESS": "Address",
+    "NEAREST_STORE_VISIT": "Nearest Store Visit",
+    "NOTES": "Notes",
+    "DETAIL_TITLE": "Customer Details",
+    "PURCHASE_HISTORY": "Purchase History",
+    "TOTAL_ORDER": "Total Orders",
+    "TOTAL_VALUE_OF_ORDERS": "Total Value of Orders",
+    "AVERAGE_VALUE_OF_EACH_ORDER": "Average Value of Each Order",
+    "NAME": "Name",
+    "ALL_SNAPSHOT": "All Customer Snapshots",
+    "ALL_HISTORY": "All History",
+    "GROUP": "Customer Group",
+    "TAGS": "Tags",
+    "TITLE_CUSTOMER": "Customer ",
+    "TYPE_CUSTOMER": " has arrived at the store!",
+    "MODAL_NAME": "{{name}} - {{type}}",
+    "SECONDS": "{{value}} seconds ago",
+    "MINUTES": "{{value}} minutes ago",
+    "HOURS": "{{value}} hours ago",
+    "DAYS": "{{value}} days ago",
+    "WEEKS": "{{value}} weeks ago",
+    "MONTHS": "{{value}} months ago",
+    "YEARS": "{{value}} years ago",
+    "NO_DATA": "No data",
+    "STORE": "Store",
+    "SIMILARITY": "Similarity",
+    "DEFAULT_CONTENT": "Current note content is empty",
+    "NOTE_CONTENT": "Created by"
+  },
+  "SELECT": {
+    "PLACEHOLDER": "Select",
+    "TOPIC": "Select Store",
+    "ALL": "All"
+  },
+  "LEAD": {
+    "TITLE": "Leads",
+    "DATE_OF_BIRTH": "Date of Birth"
+  },
+  "STORE": {
+    "TITLE": "Store"
+  },
+  "TOPIC": {
+    "NAME_LOWER": "store"
+  }
+}

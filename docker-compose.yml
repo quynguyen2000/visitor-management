@@ -1,0 +1,12 @@
+version: "3.8"
+services:
+  frontend:
+    container_name: fe-linner-v1
+    build:
+      context: .
+      dockerfile: ./docker/Dockerfile
+    ports:
+      - 4001:4001
+    volumes:
+      - ./:/app
+      - /app/node_modules

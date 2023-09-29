@@ -1,0 +1,198 @@
+.ant-input:focus,
+.ant-input-focused {
+  color: #8f91aa !important;
+}
+.text-field {
+  margin-bottom: 28px;
+  width: 100%;
+  .ant-input {
+    color: $color-text-basic !important;
+  }
+
+  .ant-form-item-control-input-content > .ant-input {
+    border-radius: 12px;
+    height: 48px;
+    padding: 5px 17px;
+    color: $color-text-basic !important;
+    font-family: 'Quicksand', sans-serif !important;
+  }
+
+  .ant-input-password {
+    border-radius: 12px;
+    height: 48px;
+    padding: 5px 17px;
+    color: $color-text-basic !important;
+  }
+
+  .ant-form-item-row {
+    position: relative;
+
+    .ant-form-item-label {
+      position: absolute;
+      top: -16px;
+      left: 18px;
+      z-index: 2;
+      > label {
+        font-size: 12px !important;
+        color: #909090;
+      }
+    }
+  }
+  &.active {
+    .ant-form-item-no-colon {
+      color: $color-text-basic !important;
+    }
+  }
+
+  .ant-select-in-form-item {
+    .ant-select-selector {
+      height: 48px;
+      border-radius: 12px;
+      align-items: center;
+      padding-left: 14px;
+    }
+  }
+
+  label::before {
+    content: '' !important;
+    height: 4px;
+    width: 100%;
+    background-color: #fff;
+    position: absolute;
+    left: -1px;
+    z-index: -1;
+  }
+
+  &.required {
+    label::after {
+      color: #ff4d4f;
+      content: '*' !important;
+    }
+  }
+
+  .ant-select:not(.ant-select-customize-input) .ant-select-selector {
+    border-radius: 12px;
+    height: 48px;
+    display: flex !important;
+    padding: 5px 17px;
+    color: $color-text-basic !important;
+  }
+
+  .ant-select:not(.ant-select-customize-input) .ant-select-selector input {
+    border-radius: 12px;
+    height: 48px;
+  }
+
+  .ant-select-selection-placeholder {
+    display: flex;
+    align-items: center;
+  }
+
+  .ant-select-selection-overflow {
+    padding-right: 1rem !important;
+    overflow-x: auto;
+    overflow-y: hidden;
+    flex-wrap: nowrap !important;
+    &::-webkit-scrollbar {
+      width: 3px;
+      height: 3px;
+    }
+
+    &::-webkit-scrollbar-track {
+      background: #f1f1f1;
+    }
+
+    &::-webkit-scrollbar-thumb {
+      background: #888;
+    }
+
+    &::-webkit-scrollbar-thumb:hover {
+      background: #555;
+    }
+  }
+
+  .ant-select-selection-item {
+    display: flex;
+    align-items: center;
+    color: $color-text-basic !important;
+  }
+
+  .ant-input-affix-wrapper {
+    border-radius: 12px;
+    height: 48px;
+    padding: 5px 17px;
+    color: $color-text-basic !important;
+  }
+
+  .ant-input-suffix {
+    color: #9c9c9c;
+  }
+
+  .ant-select-single .ant-select-selector .ant-select-selection-search {
+    left: 18px;
+  }
+}
+
+.ant-select-dropdown {
+  padding: 0px;
+  border-radius: 12px;
+  .ant-select-item {
+    height: 100%;
+    color: $color-text-basic !important;
+    .ant-select-item-option-content {
+      padding: 5px;
+      color: $color-text-basic !important;
+    }
+  }
+  .ant-select-item:hover {
+    background-color: #2a417e;
+    color: #fff;
+    .ant-select-item-option-content {
+      color: #fff !important;
+    }
+  }
+  .ant-select-item-option-selected:not(.ant-select-item-option-disabled) {
+    background-color: #0f1934;
+    color: #fff;
+    font-weight: lighter;
+  }
+  .ant-select-item-option-active {
+    color: #fff;
+  }
+  .ant-select-item-option-selected {
+    color: #fff;
+    .ant-select-item-option-content {
+      color: #fff !important;
+    }
+  }
+}
+
+input[type='number']::-webkit-inner-spin-button,
+input[type='number']::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.active-disable {
+  .ant-form-item-no-colon {
+    color: $color-text-disable !important;
+  }
+  .ant-form-item-control-input-content > .ant-input {
+    color: $color-text-disable !important;
+  }
+  .ant-select-selection-item {
+    color: $color-text-disable !important;
+  }
+  .ant-input[disabled] {
+    color: #9c9c9c !important;
+  }
+}
+.multiple-select {
+  .ant-select-selector {
+    border-radius: 12px;
+    height: 48px;
+    display: flex !important;
+    padding: 0 17px !important;
+    color: $color-text-basic !important;
+    font-family: 'Quicksand', sans-serif !important;
+  }
+}

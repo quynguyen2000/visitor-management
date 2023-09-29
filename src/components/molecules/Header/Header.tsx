@@ -6,7 +6,6 @@ import {
   UserOutlined,
 } from '@ant-design/icons';
 import { notificationInfo } from '@app/components/atoms';
-import { messaging, onMessageListener } from '@app/firebase';
 import { setRefresh } from '@app/redux/features/notification/notifySlice';
 import { RootState } from '@app/redux/store';
 import { Avatar, Badge, Col, Dropdown, Layout, Menu, Row, Space, Typography } from 'antd';
@@ -69,13 +68,6 @@ function HeaderComponent(props: any) {
     }
     setNotifications(unRead);
   }, [unRead]);
-
-  useEffect(() => {
-    onMessage(messaging, (payload: any) => {
-      dispatch(setRefresh(true));
-      notificationInfo(payload?.data.body);
-    });
-  }, []);
 
   return (
     <>

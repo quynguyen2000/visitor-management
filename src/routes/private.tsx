@@ -2,11 +2,9 @@ import { lazy } from 'react';
 
 const PrivateLayout = lazy(() => import('@app/components/templates/PrivateLayout'));
 
-const NotificationList = lazy(
-  () => import('@app/pages/Notification/NotificationList/NotificationList'),
-);
+const NotificationList = lazy(() => import('@app/pages/Unknown/UnknownList/UnknownList'));
 
-const UnknownDetail = lazy(() => import('@app/pages/Unknown/Unknown'));
+const UnknownDetail = lazy(() => import('@app/pages/Unknown/UnknownDetail/UnknownDetail'));
 const Staff = lazy(() => import('@app/pages/Staff/Staff'));
 
 interface Route {

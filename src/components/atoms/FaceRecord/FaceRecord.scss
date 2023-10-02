@@ -15,6 +15,16 @@
     border-radius: 5px !important;
     cursor: pointer;
 
+    .ant-image {
+      width: 130px !important;
+      height: 170px !important;
+      .ant-image-img {
+        width: 100%;
+        object-fit: cover;
+        height: 100%;
+      }
+    }
+
     .ant-typography {
       font-weight: 700;
       font-size: 12px;

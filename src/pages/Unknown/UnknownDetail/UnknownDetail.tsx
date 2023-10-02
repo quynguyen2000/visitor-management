@@ -9,7 +9,7 @@ import { fTime } from '@app/helpers/format';
 import { GetLeadDetails } from '@app/interfaces';
 import { useTranslation } from 'react-i18next';
 import { useParams } from 'react-router-dom';
-import './Unknown.scss';
+import './UnknownDetail.scss';
 
 const UnknownDetail: React.FC = () => {
   const { t } = useTranslation();

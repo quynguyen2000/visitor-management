@@ -9,10 +9,10 @@ import { Breadcrumb, IBreadcrumbItem } from '@app/components/molecules/Breadcrum
 import { DATE_TIME } from '@app/constants';
 import { dataImgs } from '@app/helpers';
 import { fDate, fDatePicker } from '@app/helpers/format';
-import './NotificationList.scss';
+import './UnknownList.scss';
 import { GetLeadDetails } from '@app/interfaces';
 
-const NotificationList = () => {
+const UnknownList = () => {
   const { t } = useTranslation();
   const [date, setDate] = useState<any>(fDate(new Date()));
   const [datas, setDatas] = useState<GetLeadDetails[]>();
@@ -25,12 +25,6 @@ const NotificationList = () => {
   const onChange: DatePickerProps['onChange'] = (date, dateString) => {
     setDate(dateString);
   };
-
-  function getPreviousDate(): Date {
-    const currentDate = new Date();
-    const previousDate = new Date(currentDate.getTime() - 24 * 60 * 60 * 1000);
-    return previousDate;
-  }
 
   useEffect(() => {
     const list = dataImgs.filter((data) => fDate(data.time) === date);
@@ -142,4 +136,4 @@ const NotificationList = () => {
   );
 };
 
-export default NotificationList;
+export default UnknownList;

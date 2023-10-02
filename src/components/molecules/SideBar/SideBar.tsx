@@ -38,7 +38,7 @@ export const SideBar = (props: any) => {
             <Space
               style={{ justifyContent: 'center', width: '100%' }}
               size={0}
-              onClick={() => navigate('/notifications')}
+              onClick={() => navigate('/')}
             >
               {props.collapsed !== true ? (
                 <img src={MainLogo} alt='logo' className='logo' />

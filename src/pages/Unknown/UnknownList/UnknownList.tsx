@@ -9,8 +9,8 @@ import { Breadcrumb, IBreadcrumbItem } from '@app/components/molecules/Breadcrum
 import { DATE_TIME } from '@app/constants';
 import { dataImgs } from '@app/helpers';
 import { fDate, fDatePicker } from '@app/helpers/format';
-import './UnknownList.scss';
 import { GetLeadDetails } from '@app/interfaces';
+import './UnknownList.scss';
 
 const UnknownList = () => {
   const { t } = useTranslation();
@@ -19,7 +19,7 @@ const UnknownList = () => {
 
   const [table, setTable] = useState({
     page: 1,
-    size: 10,
+    size: 50,
   });
 
   const onChange: DatePickerProps['onChange'] = (date, dateString) => {
@@ -27,11 +27,9 @@ const UnknownList = () => {
   };
 
   useEffect(() => {
-    const list = dataImgs.filter((data) => fDate(data.time) === date);
+    const list = dataImgs.filter((data) => fDate(data.time) === date).slice(0, table.size);
     setDatas(list);
-  }, [date]);
-
-  // console.log('date', date);
+  }, [date, table]);
 
   const breadcrumbItems: IBreadcrumbItem[] = [{ key: 'unknowns' }];
 
@@ -44,6 +42,7 @@ const UnknownList = () => {
             <Col sm={12} md={12} lg={12} xl={8}>
               <TextField initialValue={Date()}>
                 <DatePicker
+                  allowClear={false}
                   defaultValue={fDatePicker(new Date())}
                   format={DATE_TIME.DAY_MONTH_YEAR}
                   onChange={onChange}

@@ -1,5 +1,11 @@
 .notification-detail {
-  .ant-typography {
-    font-family: Quicksand, sans-serif;
+  .face-img {
+    width: 105px !important;
+    height: 140px !important;
+    .ant-image-img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
   }
 }

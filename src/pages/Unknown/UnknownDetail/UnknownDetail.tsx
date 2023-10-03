@@ -57,17 +57,18 @@ const UnknownDetail: React.FC = () => {
                 justifyContent: 'flex-end',
               }}
             >
-              <Row>
+              <Row gutter={[16, 16]}>
                 <Col
                   xs={10}
                   sm={8}
-                  md={6}
-                  lg={4}
+                  md={8}
+                  lg={6}
+                  xl={4}
                   style={{ display: 'flex', alignItems: 'center', height: '100%' }}
                 >
-                  <Image preview={false} src={data.face} />
+                  <Image preview={false} src={data.face} className='face-img' />
                 </Col>
-                <Col xs={14} sm={16} md={18} lg={20}>
+                <Col xs={14} sm={16} md={16} lg={18} xl={20}>
                   <Row
                     style={{
                       paddingLeft: '8px',
@@ -109,14 +110,6 @@ const UnknownDetail: React.FC = () => {
             </Col>
           </Row>
           <FaceRecord datas={datas} />
-          <Pagination
-            paginate={{
-              table,
-              setTable,
-              total: Number(datas?.length),
-              pageCount: 1,
-            }}
-          />
         </Card>
       )}
     </div>

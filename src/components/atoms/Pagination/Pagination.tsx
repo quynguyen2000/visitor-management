@@ -20,7 +20,7 @@ export const Pagination: React.FC<Props> = ({ paginate }) => {
     <div className='customer-pagination'>
       <PaginationAntd
         showSizeChanger
-        pageSizeOptions={[10, 20, 50]}
+        pageSizeOptions={[50, 100, 150, 200]}
         current={paginate.table.page}
         pageSize={paginate.table.size}
         total={paginate.total}

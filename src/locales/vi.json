@@ -35,7 +35,7 @@
   },
   "BREADCRUMBS": {
     "NOTIFICATIONS": "Thông báo",
-    "UNKNOWNS": "Khách hàng chưa xác định",
+    "UNKNOWNS": "Người lạ chưa xác định",
     "DETAIL": "Chi tiết",
     "STAFFS": "Nhân viên"
   },
@@ -83,7 +83,7 @@
     "CHOOSE": "Chọn {{value}}"
   },
   "NOTIFICATION": {
-    "TITLE": "Thông báo",
+    "TITLE": "Người lạ",
     "NOT_YET_SUPPORTED": "Chưa được hỗ trợ",
     "WELCOME_CUSTOMERS": "Vui lòng chuẩn bị và chào đón khách hàng!"
   },

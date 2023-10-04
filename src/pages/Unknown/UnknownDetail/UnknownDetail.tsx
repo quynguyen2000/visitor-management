@@ -10,6 +10,7 @@ import { GetLeadDetails } from '@app/interfaces';
 import { useTranslation } from 'react-i18next';
 import { useNavigate, useParams } from 'react-router-dom';
 import './UnknownDetail.scss';
+import { customSort } from '@app/helpers/sortDate';
 
 const UnknownDetail: React.FC = () => {
   const { t } = useTranslation();
@@ -26,6 +27,11 @@ const UnknownDetail: React.FC = () => {
     const detail = dataImgs.find((data) => data.id === id);
     setData(detail);
     const list = dataImgs.filter((data) => data.anchorId === detail?.anchorId);
+    const sortData = list.sort(function (a: GetLeadDetails, b: GetLeadDetails) {
+      return new Date(b.time).getTime() - new Date(a.time).getTime();
+    });
+
+    console.log('sortData', sortData);
     setDatas(list);
   }, [dataImgs]);
 

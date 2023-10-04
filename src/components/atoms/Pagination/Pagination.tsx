@@ -13,7 +13,9 @@ export const Pagination: React.FC<Props> = ({ paginate }) => {
   const { t } = useTranslation();
 
   const renderTotal = (total: number) => {
-    return t('TABLE.PAGE_TOTAL', { total: total });
+    return t(`TABLE.${paginate?.total_type ? paginate?.total_type.toUpperCase() : 'PAGE_TOTAL'}`, {
+      total: total,
+    });
   };
 
   return (

@@ -8,17 +8,18 @@ import { dataImgs } from '@app/helpers';
 import { fTime } from '@app/helpers/format';
 import { GetLeadDetails } from '@app/interfaces';
 import { useTranslation } from 'react-i18next';
-import { useParams } from 'react-router-dom';
+import { useNavigate, useParams } from 'react-router-dom';
 import './UnknownDetail.scss';
 
 const UnknownDetail: React.FC = () => {
   const { t } = useTranslation();
   const { id } = useParams();
+  const navigate = useNavigate();
   const [data, setData] = useState<GetLeadDetails>();
   const [datas, setDatas] = useState<GetLeadDetails[]>();
   const [table, setTable] = useState({
     page: 1,
-    size: 10,
+    size: 50,
   });
 
   useEffect(() => {
@@ -44,12 +45,12 @@ const UnknownDetail: React.FC = () => {
               padding: '1rem 2rem',
             }}
           >
-            <Col sm={12} md={10} lg={9}>
+            <Col sm={24} md={24} lg={9}>
               <Image preview={false} src={data.frame} width={'100%'} />
             </Col>
             <Col
-              sm={12}
-              md={14}
+              sm={24}
+              md={24}
               lg={15}
               style={{
                 display: 'flex',
@@ -63,12 +64,14 @@ const UnknownDetail: React.FC = () => {
                   sm={8}
                   md={8}
                   lg={6}
-                  xl={4}
+                  xl={6}
                   style={{ display: 'flex', alignItems: 'center', height: '100%' }}
                 >
-                  <Image preview={false} src={data.face} className='face-img' />
+                  <div className='face-img'>
+                    <Image preview={false} src={data.face} />
+                  </div>
                 </Col>
-                <Col xs={14} sm={16} md={16} lg={18} xl={20}>
+                <Col xs={14} sm={16} md={16} lg={18} xl={18}>
                   <Row
                     style={{
                       paddingLeft: '8px',
@@ -103,13 +106,24 @@ const UnknownDetail: React.FC = () => {
                     </Col>
                   </Row>
                   <Row style={{ marginTop: '2rem' }}>
-                    <Button type='primary'>Thêm nhân viên</Button>
+                    <Button onClick={() => navigate('/staffs')} type='primary'>
+                      Thêm nhân viên
+                    </Button>
                   </Row>
                 </Col>
               </Row>
             </Col>
           </Row>
           <FaceRecord datas={datas} />
+          <Pagination
+            paginate={{
+              table,
+              setTable,
+              total: Number(datas?.length),
+              pageCount: 1,
+              total_type: 'image_total',
+            }}
+          />
         </Card>
       )}
     </div>

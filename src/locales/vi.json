@@ -27,7 +27,8 @@
     "TOTAL_MONEY": "Tổng tiền",
     "STATUS": "Trạng thái",
     "NOTE": "Ghi chú",
-    "PAGE_TOTAL": "Tổng {{total}} khách hàng"
+    "PAGE_TOTAL": "Tổng {{total}} khách hàng",
+    "IMAGE_TOTAL": "Tổng {{total}} ảnh"
   },
   "SEDER": {
     "STAFF": "Quản lý nhân viên",

@@ -48,6 +48,10 @@ const UnknownList = () => {
                   onChange={onChange}
                 />
               </TextField>
+            </Col>
+          </Row>
+          <Row gutter={32}>
+            <Col sm={12} md={12} lg={12} xl={8}>
               <Space
                 style={{
                   padding: '12px',
@@ -80,12 +84,6 @@ const UnknownList = () => {
               </Space>
             </Col>
             <Col sm={12} md={12} lg={12} xl={8}>
-              <TextField>
-                <Button type='primary' style={{ margin: '0px !important' }}>
-                  <Avatar style={{ padding: '5px' }} src={ImageRedo} />
-                  Sắp xếp ảnh
-                </Button>
-              </TextField>
               <Space
                 direction='horizontal'
                 style={{

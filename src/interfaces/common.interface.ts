@@ -30,4 +30,5 @@ export interface PaginateOptions {
   setTable: (value: any) => void;
   total: number;
   pageCount: number;
+  total_type?: string;
 }

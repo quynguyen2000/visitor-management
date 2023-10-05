@@ -11,6 +11,7 @@ import { dataImgs } from '@app/helpers';
 import { fDate, fDatePicker } from '@app/helpers/format';
 import { GetLeadDetails } from '@app/interfaces';
 import './UnknownList.scss';
+import { sortByDateAscending } from '@app/helpers/sortDate';
 
 const UnknownList = () => {
   const { t } = useTranslation();
@@ -27,7 +28,9 @@ const UnknownList = () => {
   };
 
   useEffect(() => {
-    const list = dataImgs.filter((data) => fDate(data.time) === date).slice(0, table.size);
+    const list = sortByDateAscending(
+      dataImgs.filter((data) => fDate(data.time) === date).slice(0, table.size),
+    );
     setDatas(list);
   }, [date, table]);
 
